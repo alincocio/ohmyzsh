@@ -313,8 +313,6 @@ EOF
     echo "${YELLOW}Run zsh to try it out.${RESET}"
     exit
   fi
-
-  exec zsh -l
 }
 
 main "$@"
